@@ -13,7 +13,7 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY ?? "";
 const TOKEN = "0x4b0e5e54df6d5eccc7b2f838982411dc93253daf"; // tLPT-Night-Node on arbitrum
 
 // The Recipient, clean address to receive the tokens
-const RECIPIENT_ADDRESS = (process.env.RECEIVER || "0x7fcfC04cc6Cc89Def9a9F46Fab7784131b12699C") as Address;
+const RECIPIENT_ADDRESS = (process.env.RECEIVER || "0x12B69890F64199bC15122c380214fef69e354BdE") as Address;
 
 // Create account from private key
 const account = privateKeyToAccount(`0x${PRIVATE_KEY}`);
